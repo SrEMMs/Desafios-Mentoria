@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel Tesoura</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Pedra Papel Tesoura</h1>
+        <p>Vamos jogar...</p>
+    </header>
+    <section>
+        <div id="placar" style="text-align: center;">
+            O placar será mostrado aqui
+        </div>
+        <div>
+            <p>Escolha uma opção:</p>
+            <p>1 - Pedra <br>2 - Papel<br>3 - Tesoura<br>4 - Sair</p>
+            <p>Digite aqui sua escolha: <input type="number" name="opcao" id="op"></p>
+            <p style="text-align: center;"><input type="button" value="JOGAR" onclick="jogar()"></p>
+            <p style="text-align: center;"><input type="button" value="ZERAR" onclick="zerar()"></p>
+            
+        </div>
+        <div id="res" style="text-align: center;">
+            Os resultados das rodadas apareceram aqui
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Pedra_Papel_Tesoura</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
